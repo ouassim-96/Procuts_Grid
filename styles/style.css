@@ -13,3 +13,93 @@ img{
 body{
   margin:0;
 }
+
+.wrapper{
+  max-width: 1280px;
+  margin:auto;
+}
+
+.titre_principal{
+  font-family: "Righteous", sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 50px;
+  text-align: center;
+}
+
+.grid-products{
+  display: grid;
+  gap:10px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+/* MES CARDS */
+
+article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+
+h3{
+  margin-top: 0;
+  font-family:"Playfair Display", serif;;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  
+}
+
+span{
+  font-family: "Noto Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 250;
+}
+
+.txt_card {
+  display: flex;
+  flex-direction: column;
+  gap:30px;
+  margin-top: 20px;
+}
+
+.txt_card h3,
+.txt_card span,
+.star {
+  margin-left: 16px; 
+}
+
+.btn{
+  background: #001e42;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  padding: 20px 0;
+  border-radius: 3px;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: bold;
+  transition: .3s all ease-in-out;
+}
+
+.btn:hover{
+  color: salmon;
+}
+
+.top_card{
+  position: relative;
+}
+
+.coin p{
+  position: absolute;
+  top :2px;
+  left:10px;
+  background: #001e42;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 3px;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
