@@ -1,0 +1,15 @@
+/*Permet de faire tenir les paddings et border dans les largeurs des boites*/
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+}
+
+img{
+  display: block; /*enlève l'espacement en bottom*/
+  max-width: 100%;  /*ne depasse pas la taille du parents */
+}
+
+body{
+  margin:0;
+}
